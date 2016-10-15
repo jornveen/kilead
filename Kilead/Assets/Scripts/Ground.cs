@@ -3,12 +3,12 @@ using System.Collections;
 
 public class Ground : MonoBehaviour {
 
-	public Material brokeMat;
+	public Material[] brokeMat;
 	private int index;
 
 	// Use this for initialization
 	void Start () {
-		index = 0;
+		index = brokeMat.Length;
 	}
 
 	void OnCollisionEnter (Collision other)
@@ -17,21 +17,25 @@ public class Ground : MonoBehaviour {
 		{
 			if (index==0)
 			{
-				gameObject.GetComponent<Renderer>().material = brokeMat;
-				gameObject.tag = "Untagged";
+                Destroy(gameObject);
 			}
-			if (index==1)
+            else if (index==1)
 			{
-				Destroy(gameObject);
-			}
-		}
+                gameObject.GetComponent<Renderer>().material = brokeMat[index - 1];
+                gameObject.tag = "Untagged";
+            }
+            else
+            {
+                gameObject.GetComponent<Renderer>().material = brokeMat[index - 1];
+            }
+        }
 	}
 
 	void OnCollisionExit (Collision other)
 	{
 		if (other.gameObject.tag == "Player")
 		{
-			index ++;
+			index --;
 		}
 	}
 }

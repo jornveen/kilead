@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Puzzel Game.CSharp.Plugins", "Puzzel Game.CSharp.Plugins.csproj", "{9810C1BA-3455-347F-0625-1158ECA83FA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Puzzel Game.CSharp", "Puzzel Game.CSharp.csproj", "{BBE52198-DC99-D154-AA8F-968D09E6F873}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Puzzel Game.CSharp.Editor", "Puzzel Game.CSharp.Editor.csproj", "{025B8A77-4209-8029-00E7-81CAA99B4AD7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9810C1BA-3455-347F-0625-1158ECA83FA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9810C1BA-3455-347F-0625-1158ECA83FA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9810C1BA-3455-347F-0625-1158ECA83FA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9810C1BA-3455-347F-0625-1158ECA83FA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBE52198-DC99-D154-AA8F-968D09E6F873}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBE52198-DC99-D154-AA8F-968D09E6F873}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBE52198-DC99-D154-AA8F-968D09E6F873}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBE52198-DC99-D154-AA8F-968D09E6F873}.Release|Any CPU.Build.0 = Release|Any CPU
+		{025B8A77-4209-8029-00E7-81CAA99B4AD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{025B8A77-4209-8029-00E7-81CAA99B4AD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{025B8A77-4209-8029-00E7-81CAA99B4AD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{025B8A77-4209-8029-00E7-81CAA99B4AD7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
